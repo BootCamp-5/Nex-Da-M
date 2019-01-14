@@ -1,0 +1,22 @@
+{
+  "name": "nexon-dabang-m",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnitech/Nexon-Dabang-M.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bnitech/Nexon-Dabang-M/issues"
+  },
+  "homepage": "https://github.com/bnitech/Nexon-Dabang-M#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
