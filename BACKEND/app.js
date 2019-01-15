@@ -4,6 +4,7 @@ const port = 3000;
 
 app.get('/', (req, res, next) => {
     res.send('hello world!');
+    res.send('test bnitech');
 });
 
 app.listen(port, () => {
