@@ -7,6 +7,9 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+var moviesRouter = require('./routes/movies');  // vue에 데이터를 전달할 테스트 라우터 
+
+
 var app = express();
 
 
@@ -25,6 +28,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+
+app.use('/api/movies', moviesRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
