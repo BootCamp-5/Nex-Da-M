@@ -1,13 +1,9 @@
 var express = require('express');
+var path = require('path');
 var router = express.Router();
 
-
-const index = require('../../FRONTEND/nexon-dabang-m/src/router/index')
-
-
 router.get('/', function (req, res, next) {
-  res.send(movies)
+  res.sendFile(path.join(__dirname, '../public', 'index.html'))
 });
-
 
 module.exports = router;
