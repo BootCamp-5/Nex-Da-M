@@ -33,6 +33,16 @@ export default new Router({
       path: '/loginPage',
       name: 'LoginPage',
       component: LoginPage
+    },
+    {
+      path: '/movie',
+      name: 'MovieIndexPage',
+      component: MovieIndexPage
+    },
+    {
+      path: '/movie/:id',
+      name: 'MovieShowPage',
+      component: MovieShowPage
     }
   ]
 })
