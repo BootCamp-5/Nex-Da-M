@@ -7,9 +7,7 @@ import router from './router'
 // 예제
 import axios from 'axios'
 Vue.prototype.$http = axios
-
-
-// Vue.config.productionTip = false
+Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
@@ -17,5 +15,5 @@ new Vue({
   router,
   components: { App },
   template: '<App/>'
-})
 
+})

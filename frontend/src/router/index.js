@@ -19,6 +19,9 @@ import Router from 'vue-router'
 import IndexPage from '@/components/IndexPage'
 import LoginPage from '@/components/LoginPage'
 
+import MovieIndexPage from '@/components/MovieIndexPage'
+import MovieShowPage from '@/components/MovieShowPage'
+
 Vue.use(Router)
 
 export default new Router({
