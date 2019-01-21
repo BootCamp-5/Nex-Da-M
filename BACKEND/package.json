@@ -1,22 +1,18 @@
 {
-  "name": "nexon-dabang-m",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bnitech/Nexon-Dabang-M.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bnitech/Nexon-Dabang-M/issues"
-  },
-  "homepage": "https://github.com/bnitech/Nexon-Dabang-M#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "connect-history-api-fallback": "^1.6.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "^1.11.0",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
   }
 }
