@@ -21,6 +21,7 @@ import LoginPage from '@/components/LoginPage'
 
 import MovieIndexPage from '@/components/MovieIndexPage'
 import MovieShowPage from '@/components/MovieShowPage'
+import CategoryPage from '@/components/CategoryPage'
 
 Vue.use(Router)
 
@@ -46,6 +47,16 @@ export default new Router({
       path: '/movie/:id',
       name: 'MovieShowPage',
       component: MovieShowPage
+    },
+    {
+      path: '/movie/:id',
+      name: 'MovieShowPage',
+      component: MovieShowPage
+    },
+    {
+      path: '/category',
+      name: 'CategoryPage',
+      component: CategoryPage
     }
   ]
 })
