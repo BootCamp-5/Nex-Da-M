@@ -1,6 +1,7 @@
 <template>
   <div class="movies">
     <h1>영화 목록</h1>
+    <h2>테스트테스트</h2>
     <div v-for="movie in movies" v-bind:key="movie.id" class="movie">
       <img v-bind:src="movie.poster" class="poster">
       <div>
